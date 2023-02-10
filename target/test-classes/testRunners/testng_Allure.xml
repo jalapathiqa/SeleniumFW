@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="4" parallel="tests" thread-count="5">
+	<listeners>
+		<listener class-name="listeners.TestAllureListener"></listener>
+	</listeners>
+	
+	<test name="loginPageTest">
+		<classes>
+			<class name="tests.loginPageTest" />
+		</classes>
+	</test>
+	<test   name="loginPageTest_ElementUtil">
+		<classes>
+			<class name="tests.loginPageTest_ElementUtil" />
+		</classes>
+	</test>
+	<test   name="AccountsPageTest">
+		<classes>
+			<class name="tests.AccountsPageTest" />
+		</classes>
+	</test>
+	<test   name="dataProviderTest">
+		<classes>
+			<class name="tests.dataProviderTest" />
+		</classes>
+	</test>
+	<test  name="dataProviderTest2">
+		<classes>
+			<class name="tests.dataProviderTest2" />
+		</classes>
+	</test>
+	<test  name="LogintoFB">
+		<classes>
+			<class name="tests.LogintoFB" />
+		</classes>
+	</test>
+</suite>

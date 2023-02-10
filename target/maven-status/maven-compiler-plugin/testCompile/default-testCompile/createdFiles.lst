@@ -1,0 +1,9 @@
+com\FreeCRM\Tests\dataProviderTest2.class
+com\FreeCRM\Tests\BaseClass.class
+com\FreeCRM\Tests\loginPageTest.class
+com\FreeCRM\Tests\loginPageTest_ElementUtil.class
+com\FreeCRM\Tests\loginPageTest_Cogmento.class
+com\FreeCRM\Tests\LogintoFB.class
+com\FreeCRM\Tests\AccountsPageTest.class
+com\FreeCRM\Tests\dataProviderTest.class
+com\FreeCRM\Tests\CreateNewContactTest.class
