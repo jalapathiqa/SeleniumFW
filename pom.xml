@@ -93,9 +93,7 @@
 					<forkCount>0</forkCount> <!-- changed this to 0 -->
 					<reuseForks>false</reuseForks>
 					<argLine>-Xmx1024 -XX:MaxPermSize=256m</argLine>
-					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testRunners/testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
+					
 					<argLine>
 						javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 					</argLine>
