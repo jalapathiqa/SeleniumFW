@@ -3,8 +3,8 @@
 <suite name="Suite" verbose="4" parallel="tests" thread-count="5">
 	<listeners>
 		<listener class-name="listeners.ExtentReportListener"></listener>
-		<listener class-name="listeners.TestAllureListener"></listener>
-		<listener class-name="listeners.AnnotationTransformer"></listener>
+	<!--	<listener class-name="listeners.TestAllureListener"></listener>
+		<listener class-name="listeners.AnnotationTransformer"></listener>-->
 	</listeners>
 	<test name="loginPageTest">
 		<classes>
