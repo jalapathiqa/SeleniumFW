@@ -59,7 +59,7 @@ public class BaseClass {
 		
 		driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("jpreddy911@gmail.com");
 		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("jpreddy911@gmail.com");
-		driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("jpreddy911@gmail.com");
+//		driver.findElement(By.xpath("//input[@placeholder='Email']")).sendKeys("jpreddy911@gmail.com");
 
 
 	}

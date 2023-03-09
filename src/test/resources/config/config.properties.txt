@@ -9,7 +9,7 @@ un = Admin
 pwd = admin123
 
 
--FreeCRMurl = https://www.facebook.com
+fbURL = https://www.facebook.com
 -FreeCRMurl = https://www.freecrm.com/
 
 FreeCRMurl = https://classic.crmpro.com/index.html?e=1
@@ -26,4 +26,5 @@ highlight = true
 headless = false
 incognito = false
 
-18333154357
+remote = true
+huburl = http://localhost:4444/wd/hub

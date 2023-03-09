@@ -16,7 +16,7 @@ public class FaceBookLogin_PageObjects {
 	}
 
 	// define user name
-	@FindBy(how = How.XPATH, using = "//input[@id='email']")
+	@FindBy(how = How.XPATH, using = "//input[@name='email']")
 	private WebElement email;
 
 	// define password

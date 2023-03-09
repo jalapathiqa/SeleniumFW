@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.FreeCRM.Tests.LogintoFB">
+      <class name="tests.LogintoFB">
         <methods>
-          <include name="LoginFaceBook" invocation-numbers="0"/>
+          <include name="LoginFaceBook"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.FreeCRM.Tests.LogintoFB -->
+      </class> <!-- tests.LogintoFB -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

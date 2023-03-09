@@ -16,7 +16,7 @@ import pageObjects.FaceBookLogin_PageObjects;
 @Epic("Epic 100: Design FB Login test")
 @Story("CA101: FaceBook Login story with username & Password")
 @Listeners(TestAllureListener.class)
-public class LogintoFB extends BaseClass{
+public class LogintoFB_DP extends BaseClass{
 
 	String testCaseName = "FBLogin";
 
@@ -30,9 +30,9 @@ public class LogintoFB extends BaseClass{
 	@Test(dataProvider = "FBLogin")
 	public void LoginFaceBook(String Execute, String email, String pWord) throws InterruptedException {
 
-		FaceBookLogin_PageObjects fb = PageFactory.initElements(driver, FaceBookLogin_PageObjects.class);
-//		fbLogin = new FaceBookLogin_PageObjects(driver);
-		fb.loginToFB(email, pWord);
+//		FaceBookLogin_PageObjects fb = PageFactory.initElements(driver, FaceBookLogin_PageObjects.class);
+		fbLogin = new FaceBookLogin_PageObjects(driver);
+		fbLogin.loginToFB(email, pWord);
 		Thread.sleep(2000);
 	}
 
