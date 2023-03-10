@@ -87,6 +87,11 @@
 			<artifactId>karate-junit5</artifactId>
 			<version>1.3.1</version>
 		</dependency>
+		<dependency>
+			<groupId>Jp_Practice_Final</groupId>
+			<artifactId>Jp_Practice_Final</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<plugins>

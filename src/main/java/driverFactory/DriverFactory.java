@@ -103,19 +103,28 @@ public class DriverFactory {
 	private void init_remoteDriver(String browser) {
 		System.out.println("Running test on remote grid server: " + browser);
 		if(browser.equalsIgnoreCase(("chrome"))){
-			DesiredCapabilities cap = DesiredCapabilities.chrome();
-			cap.setCapability(ChromeOptions.CAPABILITY, optionsManager.getChromeOptions());
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions op = new ChromeOptions();
 			try {
-				threadedDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), cap));
+				threadedDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), op));
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
 		}
 		else if(browser.equalsIgnoreCase(("firefox"))){
-			DesiredCapabilities cap = DesiredCapabilities.firefox();
-			cap.setCapability(FirefoxOptions.FIREFOX_OPTIONS, optionsManager.getFirefoxOptions());
+			WebDriverManager.firefoxdriver().setup();
+			FirefoxOptions op = new FirefoxOptions();
 			try {
-				threadedDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), cap));
+				threadedDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), op));
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
+		}
+		else if(browser.equalsIgnoreCase(("edge"))){
+			WebDriverManager.edgedriver().setup();
+			EdgeOptions op = new EdgeOptions();
+			try {
+				threadedDriver.set(new RemoteWebDriver(new URL(prop.getProperty("huburl")), op));
 			} catch (MalformedURLException e) {
 				e.printStackTrace();
 			}
