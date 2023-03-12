@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite thread-count="6" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="6" parallel="tests" name="FacebookDataDrivenTests(failed)" verbose="10">
+    <classes>
+      <class name="tests.LogintoFB_DP">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="LoginFaceBook" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.LogintoFB_DP -->
+    </classes>
+  </test> <!-- FacebookDataDrivenTests(failed) -->
+  <test thread-count="6" parallel="tests" name="FacebookPageTests(failed)" verbose="10">
+    <classes>
+      <class name="tests.loginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="login"/>
+          <include name="setup"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- tests.loginPageTest -->
+    </classes>
+  </test> <!-- FacebookPageTests(failed) -->
+  <test thread-count="6" parallel="tests" name="FacebookLoginTests(failed)" verbose="10">
     <classes>
       <class name="tests.LogintoFB">
         <methods>
@@ -11,5 +37,5 @@
         </methods>
       </class> <!-- tests.LogintoFB -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- FacebookLoginTests(failed) -->
 </suite> <!-- Failed suite [Suite] -->
