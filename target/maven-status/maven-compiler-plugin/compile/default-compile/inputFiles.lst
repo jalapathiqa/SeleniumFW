@@ -1,7 +1,11 @@
 C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\pageObjects\LoginPageObjectsCogmento.java
 C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\pageObjects\AccountPageObject.java
+C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\listeners\TestAllureListener.java
 C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\util\Errors.java
+C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\listeners\ExtentReportListener.java
+C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\listeners\Retry.java
 C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\pageObjects\NewContactObjects.java
+C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\listeners\AnnotationTransformer.java
 C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\util\ScreenShot.java
 C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\driverFactory\DriverFactory.java
 C:\Users\kalag\OneDrive\Desktop\Workspace\SeleniumHF\src\main\java\util\GenericUtils.java
