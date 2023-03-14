@@ -104,7 +104,6 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M9</version>
 				<configuration>
-					<skipTests>true</skipTests>
 					<forkCount>0</forkCount> <!-- changed this to 0 -->
 					<reuseForks>false</reuseForks>
 					<argLine>-Xmx1024 -XX:MaxPermSize=256m</argLine>
