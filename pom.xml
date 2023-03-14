@@ -113,9 +113,7 @@
 					<argLine>
 						javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 					</argLine>
-					<includes>
-						<includesFile>**/*Test.java</includesFile>
-					</includes>
+					
 				</configuration>
 				<dependencies>
 					<dependency>
