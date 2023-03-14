@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 12 15:26:30 PDT 2023</td>
+<td>Started on:</td><td>Mon Mar 13 20:43:05 PDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7040 ms)</td>
+<tr><td>Total time:</td><td>46 seconds (46013 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,61 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LogintoFB.LoginFaceBook()'><b>LoginFaceBook</b><br>Test class: tests.LogintoFB</td>
-<td><div><pre>java.lang.NullPointerException
-	at pageObjects.FaceBookLogin_PageObjects.loginToFB(FaceBookLogin_PageObjects.java:33)
-	at tests.LogintoFB.LoginFaceBook(LogintoFB.java:28)
+<td title='tests.CreateNewContactTest.createNewContacts()'><b>createNewContacts</b><br>Test class: tests.CreateNewContactTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [28d0b0ca44bf426c76a1a79b4bd2a63e, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.8vaWmm}, goog:chromeOptions: {debuggerAddress: localhost:43793}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.23.0.5:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.23.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.23.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28d0b0ca44bf426c76a1a79b4bd2a63e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at util.ElementUtil.getElement(ElementUtil.java:65)
+	at util.ElementUtil.doClear(ElementUtil.java:86)
+	at util.ElementUtil.doSendKeys(ElementUtil.java:90)
+	at pageObjects.LoginPageObjects.doLogin(LoginPageObjects.java:51)
+	at tests.CreateNewContactTest.createNewContacts(CreateNewContactTest.java:12)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace869758554", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace869758554'><pre>java.lang.NullPointerException
-	at pageObjects.FaceBookLogin_PageObjects.loginToFB(FaceBookLogin_PageObjects.java:33)
-	at tests.LogintoFB.LoginFaceBook(LogintoFB.java:28)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace120847080", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace120847080'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;username&apos;]&quot;}
+  (Session info: chrome=110.0.5481.177)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.14&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [28d0b0ca44bf426c76a1a79b4bd2a63e, findElement {using=name, value=username}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.8vaWmm}, goog:chromeOptions: {debuggerAddress: localhost:43793}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.23.0.5:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.23.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.23.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28d0b0ca44bf426c76a1a79b4bd2a63e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at util.ElementUtil.getElement(ElementUtil.java:65)
+	at util.ElementUtil.doClear(ElementUtil.java:86)
+	at util.ElementUtil.doSendKeys(ElementUtil.java:90)
+	at pageObjects.LoginPageObjects.doLogin(LoginPageObjects.java:51)
+	at tests.CreateNewContactTest.createNewContacts(CreateNewContactTest.java:12)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -114,8 +160,47 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>tests.LogintoFB@f80945f</td></tr>
+<td>2</td>
+<td>tests.CreateNewContactTest@3e30646a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.dataProviderTest.searchGoogle()'><b>searchGoogle</b><br>Test class: tests.dataProviderTest<br>Parameters: Docker</td>
+<td></td>
+<td>4</td>
+<td>tests.dataProviderTest@5674e1f2</td></tr>
+<tr>
+<td title='tests.dataProviderTest.searchGoogle()'><b>searchGoogle</b><br>Test class: tests.dataProviderTest<br>Parameters: Selenium</td>
+<td></td>
+<td>5</td>
+<td>tests.dataProviderTest@5674e1f2</td></tr>
+<tr>
+<td title='tests.dataProviderTest.searchGoogle()'><b>searchGoogle</b><br>Test class: tests.dataProviderTest<br>Parameters: WebDriver</td>
+<td></td>
+<td>6</td>
+<td>tests.dataProviderTest@5674e1f2</td></tr>
+<tr>
+<td title='tests.dataProviderTest2.searchGoogle()'><b>searchGoogle</b><br>Test class: tests.dataProviderTest2<br>Parameters: Docker</td>
+<td></td>
+<td>6</td>
+<td>tests.dataProviderTest2@76884e4b</td></tr>
+<tr>
+<td title='tests.dataProviderTest2.searchGoogle()'><b>searchGoogle</b><br>Test class: tests.dataProviderTest2<br>Parameters: Selenium</td>
+<td></td>
+<td>6</td>
+<td>tests.dataProviderTest2@76884e4b</td></tr>
+<tr>
+<td title='tests.dataProviderTest2.searchGoogle()'><b>searchGoogle</b><br>Test class: tests.dataProviderTest2<br>Parameters: WebDriver</td>
+<td></td>
+<td>6</td>
+<td>tests.dataProviderTest2@76884e4b</td></tr>
 </table><p>
 </body>
 </html>
