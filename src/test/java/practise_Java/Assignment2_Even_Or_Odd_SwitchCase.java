@@ -12,12 +12,12 @@ public class Assignment2_Even_Or_Odd_SwitchCase {
 		int num = scanner.nextInt();
 		
 		switch (num) {
-		case 2:
+		case 8:
 			if(num%2==0) {
 			System.out.println("Entered number is Even");
 			}
 			break;
-		case 3:
+		case 100:
 			if(num%2==0) {
 			System.out.println("Entered number is Even");
 			}

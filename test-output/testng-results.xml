@@ -1,128 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-13T20:58:17 PDT" name="Suite" finished-at="2023-03-13T20:59:03 PDT" duration-ms="45484">
+  <suite started-at="2023-03-20T08:46:27 PDT" name="Default suite" finished-at="2023-03-20T08:46:40 PDT" duration-ms="13014">
     <groups>
     </groups>
-    <test started-at="2023-03-13T20:58:17 PDT" name="Test" finished-at="2023-03-13T20:59:03 PDT" duration-ms="45484">
-      <class name="tests.dataProviderTest">
-        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:tests.dataProviderTest@5674e1f2]" started-at="2023-03-13T20:58:24 PDT" name="searchGoogle" data-provider="searchData" finished-at="2023-03-13T20:58:29 PDT" duration-ms="4971" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Selenium]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchGoogle -->
-        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:tests.dataProviderTest@5674e1f2]" started-at="2023-03-13T20:58:29 PDT" name="searchGoogle" data-provider="searchData" finished-at="2023-03-13T20:58:35 PDT" duration-ms="5802" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[WebDriver]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchGoogle -->
-        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:tests.dataProviderTest@5674e1f2]" started-at="2023-03-13T20:58:35 PDT" name="searchGoogle" data-provider="searchData" finished-at="2023-03-13T20:58:40 PDT" duration-ms="5779" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Docker]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchGoogle -->
-      </class> <!-- tests.dataProviderTest -->
-      <class name="tests.dataProviderTest2">
-        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:tests.dataProviderTest2@76884e4b]" started-at="2023-03-13T20:58:40 PDT" name="searchGoogle" data-provider="searchData" finished-at="2023-03-13T20:58:47 PDT" duration-ms="6780" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Selenium]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchGoogle -->
-        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:tests.dataProviderTest2@76884e4b]" started-at="2023-03-13T20:58:47 PDT" name="searchGoogle" data-provider="searchData" finished-at="2023-03-13T20:58:54 PDT" duration-ms="6563" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[WebDriver]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchGoogle -->
-        <test-method signature="searchGoogle(java.lang.String)[pri:0, instance:tests.dataProviderTest2@76884e4b]" started-at="2023-03-13T20:58:54 PDT" name="searchGoogle" data-provider="searchData" finished-at="2023-03-13T20:59:00 PDT" duration-ms="6641" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Docker]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchGoogle -->
-      </class> <!-- tests.dataProviderTest2 -->
-      <class name="tests.CreateNewContactTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CreateNewContactTest@3e30646a]" started-at="2023-03-13T20:58:17 PDT" name="setup" finished-at="2023-03-13T20:58:24 PDT" duration-ms="6642" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="createNewContacts()[pri:0, instance:tests.CreateNewContactTest@3e30646a]" started-at="2023-03-13T20:59:00 PDT" name="createNewContacts" finished-at="2023-03-13T20:59:02 PDT" duration-ms="2042" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test started-at="2023-03-20T08:46:27 PDT" name="Default test" finished-at="2023-03-20T08:46:40 PDT" duration-ms="13014">
+      <class name="practise_Selenium.WebTable_Handling">
+        <test-method signature="test1()[pri:0, instance:practise_Selenium.WebTable_Handling@22d7b4f8]" started-at="2023-03-20T08:46:28 PDT" name="test1" finished-at="2023-03-20T08:46:40 PDT" duration-ms="12830" status="FAIL">
+          <exception class="org.openqa.selenium.remote.http.ConnectionFailedException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[Unable to establish websocket connection to http://localhost:52661/devtools/browser/ac4da928-0599-47e0-95fc-5df39df5914f
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [3ed58319f5bf5f45ea686caec9ca2f3d, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.0ZBowp}, goog:chromeOptions: {debuggerAddress: localhost:39401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.23.0.5:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.23.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.23.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ed58319f5bf5f45ea686caec9ca2f3d]]>
+Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
-  (Session info: chrome=110.0.5481.177)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://localhost:52661/devtools/browser/ac4da928-0599-47e0-95fc-5df39df5914f
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [3ed58319f5bf5f45ea686caec9ca2f3d, findElement {using=name, value=username}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.177, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: /tmp/.com.google.Chrome.0ZBowp}, goog:chromeOptions: {debuggerAddress: localhost:39401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.23.0.5:4444/sessio..., se:cdpVersion: 110.0.5481.177, se:vnc: ws://172.23.0.5:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.23.0.5:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ed58319f5bf5f45ea686caec9ca2f3d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
-at util.ElementUtil.getElement(ElementUtil.java:65)
-at util.ElementUtil.doClear(ElementUtil.java:86)
-at util.ElementUtil.doSendKeys(ElementUtil.java:90)
-at pageObjects.LoginPageObjects.doLogin(LoginPageObjects.java:51)
-at tests.CreateNewContactTest.createNewContacts(CreateNewContactTest.java:12)
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.<init>(NettyWebSocket.java:102)
+at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:128)
+at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:107)
+at org.openqa.selenium.devtools.Connection.<init>(Connection.java:78)
+at org.openqa.selenium.chromium.ChromiumDriver.lambda$new$2(ChromiumDriver.java:116)
+at java.base/java.util.Optional.map(Optional.java:265)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:71)
+at practise_Selenium.WebTable_Handling.test1(WebTable_Handling.java:22)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -153,15 +60,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.remote.http.ConnectionFailedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewContacts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CreateNewContactTest@3e30646a]" started-at="2023-03-13T20:59:02 PDT" name="tearDown" finished-at="2023-03-13T20:59:03 PDT" duration-ms="94" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.CreateNewContactTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test1 -->
+      </class> <!-- practise_Selenium.WebTable_Handling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

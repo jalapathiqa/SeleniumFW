@@ -12,6 +12,11 @@ public class Interface5_User {
 		
 		Interface4_Laptop_Lenovo lenovo = new Interface4_Laptop_Lenovo();
 		lenovo.security();
+		
+		
+		System.out.println("from interface");
+		Interface_Laptop intface = new Interface2_Laptop_HP();
+		intface.copy();
 	}
 
 }

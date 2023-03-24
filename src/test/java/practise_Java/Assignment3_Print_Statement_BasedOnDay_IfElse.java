@@ -16,7 +16,7 @@ public class Assignment3_Print_Statement_BasedOnDay_IfElse {
 		System.out.println("Please enter present Day: ");
 		String presentDay = scanner.nextLine();
 		
-		if(presentDay.equals("Saturday") || presentDay.contains("Sunday")) {
+		if(presentDay.equals("Saturday") || presentDay.equalsIgnoreCase("Sunday")) {
 			System.out.println("Yayy, It's a Weekend");
 			
 		}else{

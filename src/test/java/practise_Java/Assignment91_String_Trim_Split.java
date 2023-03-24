@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
-public class Assignment91_String {
+public class Assignment91_String_Trim_Split {
 
 	public static void main(String[] args) {
 		
@@ -44,14 +44,7 @@ public class Assignment91_String {
 			System.out.println(ch);
 			
 		}
-		
-		System.out.println("****   Reverse a String and print ****");
-		
-		StringBuilder s4 = new StringBuilder();
-		s4.append(s3);
-		s4.reverse();
-		System.out.println(s4);
-		
+				
 // Write a java program to remove all starting and ending spaces from a string
 		
 		String s5 = "   hello world   ";

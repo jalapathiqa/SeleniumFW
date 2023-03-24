@@ -11,10 +11,6 @@ public class Array_singleDimensional {
 		i[4]=98;
 		
 //		System.out.println(i[3]);
-//		System.out.println(i[4]);
-//		System.out.println(i[0]);
-//		System.out.println(i[2]);
-//		System.out.println(i[1]);
 		
 //		for loop:
 		int sum=0;
@@ -31,8 +27,6 @@ public class Array_singleDimensional {
 		System.out.println("sum of Array size: "+sum1);
 		System.out.println("sum of Array values: "+sum2);
 
-
-
 //		while loop:
 		
 //		int j=0;
@@ -40,8 +34,7 @@ public class Array_singleDimensional {
 //			System.out.println(i[j]);
 //			j++;
 //			
-//		}
-		
+//		}		
 		
 	}
 
