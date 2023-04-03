@@ -37,6 +37,7 @@ practise_Java\Assignment4_Print_Statement_BasedOnDay_SwitchCase.class
 practise_Java\Interface5_User.class
 samples\Do_While.class
 practise_Selenium\PopUp_Alet.class
+samples\sample2.class
 practise_Selenium\FB.class
 practise_Selenium\PopUp_BrowserWindow.class
 practise_Java\Object2.class
@@ -45,10 +46,12 @@ practise_Selenium\dropDownTest_Select.class
 practise_Selenium\Handle_Basic_HTMLControls.class
 practise_Selenium\Handle_TextBoxes.class
 practise_Java\Variables.class
+samples\sampleTest.class
 practise_Selenium\waits_Lamda.class
 practise_Java\Interface2_Laptop_HP.class
 tests\dataProviderTest.class
 tests\loginPageTest_ElementUtil.class
+practise_Java\loop_While_Fibonacci.class
 practise_Selenium\FB2_StringBuilder.class
 tests\loginPageTest_Cogmento.class
 practise_Java\HashMap_userLogin.class
@@ -58,6 +61,7 @@ practise_Selenium\BrowserUtils.class
 practise_Java\File_textFiles_FOS.class
 practise_Java\OOPs_Inheritance1_Guest.class
 practise_Java\Array_twoDimensional.class
+practise_Java\Assignment91_String_Trim_Split.class
 practise_Java\loop_For_loop.class
 practise_Java\loop_For_loop_Max_Min_Value.class
 tests\BaseClass.class
@@ -66,6 +70,7 @@ practise_Java\Operators.class
 practise_Java\Assignment7_While_DoWhile.class
 practise_Java\loop_While_Statement.class
 practise_Selenium\OpenChromeBrowser.class
+practise_Java\Assignment92_String_Reverse.class
 practise_Selenium\dropDownTest_JQuery_SingleSelect2.class
 tests\dataProviderTest2.class
 practise_Selenium\screenShots.class
@@ -92,8 +97,8 @@ practise_Java\OOPs_Polymorphism_methodOverlaoding.class
 practise_Java\exception_Handling.class
 tests\AccountsPageTest.class
 practise_Java\Array_singleDimensional.class
-practise_Java\Assignment91_String.class
 practise_Java\printStatements.class
+practise_Java\Assignment93_Odd_Print.class
 practise_Selenium\FB_Js2.class
 practise_Java\loop_For_loop_print_Even_Odd_Numbers2.class
 practise_Java\Object.class
@@ -116,3 +121,4 @@ practise_Selenium\dropDownTest_JQuery_MultiSelect.class
 practise_Selenium\waits_Implecitly.class
 practise_Java\File_textFiles_Scanner.class
 practise_Java\File_textFiles_FIS.class
+practise_Java\loop_For_Fibonicci.class

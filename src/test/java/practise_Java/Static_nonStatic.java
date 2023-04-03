@@ -24,6 +24,7 @@ public class Static_nonStatic {
 		System.out.println(number1);
 		
 		
+		
 	}
 	
 	public static void print() {

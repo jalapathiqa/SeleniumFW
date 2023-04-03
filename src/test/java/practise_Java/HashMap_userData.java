@@ -19,9 +19,6 @@ public class HashMap_userData {
 		for (Map.Entry m : userMap.entrySet()) {
 			System.out.println(m.getKey()+": "+m.getValue());
 		}
-		
-		
-
 
 	}
 

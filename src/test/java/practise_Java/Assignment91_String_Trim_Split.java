@@ -36,11 +36,11 @@ public class Assignment91_String_Trim_Split {
 		String s3 = "java is super";
 		
 		System.out.println("****   separate each char from a string a print ****");
-		char ch;
+//		char ch;
 		
 		for (int i = 0; i <s3.length(); i++) {
 
-			ch = s3.charAt(i);
+		char	ch = s3.charAt(i);
 			System.out.println(ch);
 			
 		}
@@ -48,15 +48,7 @@ public class Assignment91_String_Trim_Split {
 // Write a java program to remove all starting and ending spaces from a string
 		
 		String s5 = "   hello world   ";
-		System.out.println(s5.trim());
-		
-		
-			
-		
-
-	
-
-		
+		System.out.println(s5.trim());	
 
 	}
 }
