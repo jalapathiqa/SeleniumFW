@@ -1,6 +1,6 @@
 package practise_Java;
 
-public class loop_For_loop_Max_Min_Value {
+public class Print_Max_Min_Value {
 
 	/**
 	 * Find the max number from an array and print it along with it index:
