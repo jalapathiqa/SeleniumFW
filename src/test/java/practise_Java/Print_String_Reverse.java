@@ -2,7 +2,7 @@ package practise_Java;
 
 import org.apache.logging.log4j.message.StringFormatterMessageFactory;
 
-public class Assignment92_String_Reverse {
+public class Print_String_Reverse {
 
 	public static void main(String[] args) {
 
