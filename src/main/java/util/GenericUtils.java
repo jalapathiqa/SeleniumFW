@@ -100,7 +100,6 @@ public class GenericUtils {
 
 	/**
 	 * this is used to select multiple values, like check boxes
-	 * 
 	 * @param driver
 	 * @param locator
 	 * @param value

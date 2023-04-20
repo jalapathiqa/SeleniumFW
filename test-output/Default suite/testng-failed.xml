@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practise_Selenium.WebTable_Handling">
+      <class name="practise_Selenium.initBrowserTest">
         <methods>
-          <include name="test1"/>
+          <include name="startchromeBrow"/>
         </methods>
-      </class> <!-- practise_Selenium.WebTable_Handling -->
+      </class> <!-- practise_Selenium.initBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

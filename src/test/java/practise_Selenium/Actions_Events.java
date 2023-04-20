@@ -27,7 +27,7 @@ public class Actions_Events {
 		driver.manage().window().setSize(new Dimension(1000, 1000));
 		driver.get("https://app.hubspot.com/login");
 
-	WebElement un=	driver.findElement(By.id("username"));
+		WebElement un=	driver.findElement(By.id("username"));
 		WebElement pwd=driver.findElement(By.id("password"));
 		WebElement login=driver.findElement(By.id("loginBtn"));
 		takeScreenshot.takeElementScreenShot(un, "pwd");

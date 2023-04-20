@@ -4,20 +4,11 @@
   <listeners>
     <listener class-name="listeners.TestAllureListener"/>
   </listeners>
-  <test thread-count="6" parallel="tests" name="dataProviderTest2(failed)" verbose="4">
-    <classes>
-      <class name="tests.dataProviderTest2">
-        <methods>
-          <include name="searchGoogle" invocation-numbers="0 1 2"/>
-        </methods>
-      </class> <!-- tests.dataProviderTest2 -->
-    </classes>
-  </test> <!-- dataProviderTest2(failed) -->
   <test thread-count="6" parallel="tests" name="dataProviderTest(failed)" verbose="4">
     <classes>
       <class name="tests.dataProviderTest">
         <methods>
-          <include name="searchGoogle" invocation-numbers="0 1 2"/>
+          <include name="searchGoogle" invocation-numbers="1"/>
         </methods>
       </class> <!-- tests.dataProviderTest -->
     </classes>
@@ -33,18 +24,6 @@
       </class> <!-- tests.LogintoFB -->
     </classes>
   </test> <!-- LogintoFB(failed) -->
-  <test thread-count="6" parallel="tests" name="loginPageTest(failed)" verbose="4">
-    <classes>
-      <class name="tests.loginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="login"/>
-          <include name="loginPageTitleTest"/>
-        </methods>
-      </class> <!-- tests.loginPageTest -->
-    </classes>
-  </test> <!-- loginPageTest(failed) -->
   <test thread-count="6" parallel="tests" name="AccountsPageTest(failed)" verbose="4">
     <classes>
       <class name="tests.AccountsPageTest">
@@ -57,12 +36,23 @@
       </class> <!-- tests.AccountsPageTest -->
     </classes>
   </test> <!-- AccountsPageTest(failed) -->
+  <test thread-count="6" parallel="tests" name="loginPageTest(failed)" verbose="4">
+    <classes>
+      <class name="tests.loginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="login"/>
+          <include name="loginPageTitleTest"/>
+        </methods>
+      </class> <!-- tests.loginPageTest -->
+    </classes>
+  </test> <!-- loginPageTest(failed) -->
   <test thread-count="6" parallel="tests" name="loginPageTest_ElementUtil(failed)" verbose="4">
     <classes>
       <class name="tests.loginPageTest_ElementUtil">
         <methods>
           <include name="tearDown"/>
-          <include name="loginPageUrlTest"/>
           <include name="loginPageTitleTest"/>
           <include name="setup"/>
           <include name="login"/>
