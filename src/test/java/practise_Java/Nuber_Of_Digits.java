@@ -1,6 +1,6 @@
 package practise_Java;
 
-public class Print_Nuber_Of_Digits {
+public class Nuber_Of_Digits {
 	public static void main(String[] args) {
 		
 		int num=123456789;

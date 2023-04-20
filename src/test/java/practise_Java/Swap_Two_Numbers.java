@@ -1,6 +1,6 @@
 package practise_Java;
 
-public class Print_Swap_Two_Numbers {
+public class Swap_Two_Numbers {
 
 	public static void main(String[] args) {
 		

@@ -2,7 +2,7 @@ package practise_Java;
 
 import java.util.Scanner;
 
-public class Print_Numbers_Even_Or_Odd {
+public class Numbers_Even_Or_Odd {
 
 	public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package practise_Java;
 
-public class Print_Odd {
+public class Number_Even {
 
 	public static void main(String[] args) {
 
@@ -8,9 +8,11 @@ public class Print_Odd {
 		
 		for (int i = 0; i < number; i++) {
 			
-			if(i%2!=0) {
+			if(i%2==0) {
+				
 				System.out.println(i);
-			} 		
+			}
+						
 		}
 
 	}

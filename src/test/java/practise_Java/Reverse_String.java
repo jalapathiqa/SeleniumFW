@@ -1,6 +1,6 @@
 package practise_Java;
 
-public class Print_String_Reverse {
+public class Reverse_String {
 
 	public static void main(String[] args) {
 

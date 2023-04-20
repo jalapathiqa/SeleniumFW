@@ -18,13 +18,13 @@ public class Strings {
 
 		System.out.println(s2 == s3);// it will compare the address
 
-		System.out.println("**** Equals/equalsignorecase *****");
+System.out.println("**** Equals/equalsignorecase *****");
 
 		System.out.println(s2.equals(s3));// equal will compare the value
 
 		System.out.println(s2.equalsIgnoreCase(s3));
 
-		System.out.println("**** contains *****");
+System.out.println("**** contains *****");
 
 		System.out.println(s2.contains("He"));
 		System.out.println(s2.contains("H"));
@@ -87,35 +87,35 @@ System.out.println("**** split *****");
 		
 System.out.println("****  count number of words in a string ****");
 
-String s13 = "java is super";
-System.out.println("number of characters: "+s13.length());
+		String s13 = "java is super";
+		System.out.println("number of characters: "+s13.length());
 		
 // Write a java program to count the number of words in a string
 		// input: java is super 
 		// output: 3
-int countOfWords = s13.split("\\s").length;
+		int countOfWords = s13.split("\\s").length;
 
-System.out.println("countOfWords: "+countOfWords);
+		System.out.println("countOfWords: "+countOfWords);
 
 System.out.println("**** charAt *****");	
 		System.out.println(s6.charAt(4));
 		
 System.out.println("**** charAt *****");	
-String s7 = "Hello Canada vancouver surrey";
+		String s7 = "Hello Canada vancouver surrey";
 		System.out.println(s7.replace("vancouver", "Surrey"));
 		
-System.out.println("**** charAt *****");	
+		System.out.println("**** charAt *****");	
 		String s8 = "756759";
 				System.out.println(s8);
 				int i = Integer.valueOf(s8);
-//				System.out.println(Integer.valueOf(s8));
+//	System.out.println(Integer.valueOf(s8));
 				System.out.println(i);
 				
 				int j = 78919;
 				String s9 = String.valueOf(j);
 				System.out.println(s9);
 				
-System.out.println("**** charAt *****");	
+				System.out.println("**** charAt *****");	
 				String s10;
 				String s11=" ";
 				String s12="";

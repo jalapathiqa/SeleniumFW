@@ -1,6 +1,6 @@
 package practise_Java;
 
-public class Print_Negative_Positive_Numbers{
+public class Negative_Positive_Numbers{
 
 	public static void main(String[] args) {
 

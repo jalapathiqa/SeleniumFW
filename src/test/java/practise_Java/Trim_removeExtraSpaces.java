@@ -2,7 +2,7 @@ package practise_Java;
 
 import java.util.StringTokenizer;
 
-public class Print_Trim_removeExtraSpaces {
+public class Trim_removeExtraSpaces {
 
 public static void main(String args[]){
     	

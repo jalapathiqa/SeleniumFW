@@ -2,7 +2,7 @@ package practise_Java;
 
 import org.junit.jupiter.api.condition.DisabledIfSystemProperties;
 
-public class Print_Fabonicci {
+public class Fabonicci {
 
 	public static void main(String[] args) {
 
